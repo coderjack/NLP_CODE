@@ -27,6 +27,13 @@ Code description:
            
 
 USAGE:
+  To test this code directly just type "ruby autocomplete.rb" in the directory named "sentence_autocomplete".
+  It will ask for input data file. Type "as.txt" and press enter.
+  Then it will ask for a sentence. Type in anything and press ENTER.
+  To Exit the program, just press ENTER.
+ 
+  otherwise,
+  
    Make an object of the class named "MarkovChain" and pass the input raw data text file.
      markov_obj = MarkovChain.new(<in_file>)
 	 Pass last two words of an incomplete sentence to the method named "get_possible_word"	
